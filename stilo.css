@@ -1,0 +1,53 @@
+/* Fundo bonito em degradê */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa do formulário */
+.container {
+   
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
+   background: linear-gradient(135deg, #bab1c4, #2575fc);
+    text-align: center;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    width: 95%;
+    padding: 10px;
+    background: #6a11cb;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2575fc;
+}
+
+/* Mensagens */
+#msg {
+    margin-top: 10px;
+    font-weight: bold;
+}
